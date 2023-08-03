@@ -12,27 +12,27 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Dharmik Bhanushali',
+  title: "Hey there, I'm Dharmik",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Java, REST APIs, Flask and Spring Frameworks.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://docs.google.com/document/d/1ZITAzIHtPxT23UNG0xWRiYZWjPPwT8UPg95sDQTi1U8/edit#heading=h.gjdgxs',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'dharmikbhanushali',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  url: 'https://github.com/dharmikbhanushali',
+  linkedin: 'http://www.linkedin.com/in/dharmikbhanushali',
+  github: 'https://github.com/dharmikbhanushali',
+  instagram: 'https://www.instagram.com/dharmik____',
+  facebook: '',
+  twitter: '',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -195,113 +195,120 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+    Stack: 'Backend', //Insert stack or technology you have experience in
     progressPercentage: '90', //Insert relative proficiency in percentage
   },
   {
-    Stack: 'Backend',
+    Stack: 'Frontend/Design',
     progressPercentage: '70',
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '69',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
+    schoolName: 'Indiana University Bloomington',
     subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    duration: 'August 2022 - May 2024',
+    desc: '',
+    grade: 'GPA: 3.95',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Courses: Semester I - Applied Algorithms, Elements of Artificial Intelligence, Security for Networked Systems', 
+                'Semester II - Software Engineering, Database Design, Information Visualization',
+      'Mentorship: Teaching Assistant for the courses - Mobile App Development, Data Structures, Intro to Software Systems(Java)',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
+    role: 'Systems Engineer',
+    company: 'Tata Consultancy Services',
     companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    date: 'Nov 2020 – Jun 2022',
+    desc: '● Collaborated with cross-functional teams to develop REST API services with a focus on scalability, led to a remarkable 50% reduction in response time for high volume requests with continuous integration and deployment. ● Engineered and integrated high-performing Native SQL stored procedures to optimize Application Interfaces, resulting in a significant 25% boost in indexing speed. ● Designed efficient databases with optimized indexing, resulting in a 15% decrease in response time using MySQL.',
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
+    role: 'Software Development Intern',
+    company: 'The Sparks Foundation',
     companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    date: 'Dec 2018 – Feb 2019',
+    desc: '● Seamlessly integrated payment gateway into donation website with Python, JSON, and Payflow SDK, resulting in a 50% increase in transactions. ● Successfully developed user actionable insights & metrics to make informed credit decisions with an automated alert system with 75% accuracy PHP, HTML, CSS and PostgreSQL.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-  },
+  // {
+  //   role: 'Full Stack Developer',
+  //   company: 'Bleed-AI',
+  //   companyLogo: '/img/icons/common/bleedAI.jpg',
+  //   date: 'Sept 2021 - Oct 2021',
+  //   desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+  // },
+  // {
+  //   role: 'Backend Developer',
+  //   company: 'Wapidu',
+  //   companyLogo: '/img/icons/common/wapidu.jpg',
+  //   date: 'Sept 2021',
+  //   desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+  // },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Wellness Tracking System',
+    stack: 'Techstack: Django, React , HTML, Bootstrap, CSS, PostgreSQL, REST, Azure, Docker',
+    desc: '● Crafted personalized workout and diet plans for a large user base on HealthTrack365 using machine learning algorithms that helped them achieve their fitness goals with a success rate of over 70%.',
+    github: 'https://github.com/dharmikbhanushali/WellnessTrackingSystem',
+    link: 'https://youtu.be/uzk2DVjTbok',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
+    name: 'Implementation of Virtual Assistant with Sign Language using Deep Learning and Tensorflow',
+    stack:'Techstack: Python, Tensorflow, OpenCV, Convolutional Neural Network',
+    desc: 'Led the training of the AI model for the sign language interface, resulting in a 30% increase in accessibility for individuals with speech and hearing impairments.',
     github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    link3:'https://ieeexplore.ieee.org/document/9183179',
+    link2:'https://www.irjet.net/archives/V7/i3/IRJET-V7I31032.pdf',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
+    name: 'Fitness Application',
+    stack: 'Techstack: Java, XML, Firebase, SQL',
+    desc: '● Optimized application performance by integrating real-time data tracking features, including GPS location, step count, and calorie tracker, with an accuracy rate of over 90%.\n● Enhanced user experience with precise BMI calculator and personalized health insights from real-time data.',
     github: 'https://github.com/1hanzla100/django-react-forum',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
+    name: 'Visualizing the Vascular System of the Human Body',
+    stack:'Techstack: Python, Tableau, PowerBI',
+    desc: 'Collaborated with a Harvard University professor and a multidisciplinary team to visualize the complex vascular system of the human body for the HuBMAP initiative. Processed and cleaned millions of rows of data, ensuring a 97% improvement in data quality for the analysis of nearly 1000 blood vessels.',
     github: 'https://github.com/1hanzla100/Django-ecommerce',
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-];
+// export const feedbacks: FeedbackType[] = [
+//   {
+//     name: 'John Smith',
+//     feedback:
+//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+//   },
+//   {
+//     name: 'John Smith',
+//     feedback:
+//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+//   },
+// ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+// export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Dharmik Bhanushali',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
+    'A passionate Full Stack Web Developer.',
   author: 'Hanzla Tauqeer',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
