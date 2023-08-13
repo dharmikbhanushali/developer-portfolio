@@ -44,10 +44,10 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Building responsive Single-Page-Apps (SPA) in React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        // emoji('⚡ Building responsive static websites using Next.js'),
+        emoji('⚡ Building RESTful APIs in Django & Django REST Framework, Java & Spring Framework'),
       ],
       softwareSkills: [
         {
@@ -66,10 +66,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Reactjs',
           iconifyTag: 'vscode-icons:file-type-reactjs',
         },
-        {
-          skillName: 'Nextjs',
-          iconifyTag: 'vscode-icons:file-type-light-next',
-        },
+        // {
+        //   skillName: 'Nextjs',
+        //   iconifyTag: 'vscode-icons:file-type-light-next',
+        // },
         {
           skillName: 'Python',
           iconifyTag: 'logos:python',
@@ -79,18 +79,18 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'vscode-icons:file-type-django',
         },
 
-        {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
-        },
-        {
-          skillName: 'NPM',
-          iconifyTag: 'logos:npm-icon',
-        },
-        {
-          skillName: 'Yarn',
-          iconifyTag: 'logos:yarn',
-        },
+        // {
+        //   skillName: 'Redux',
+        //   iconifyTag: 'logos:redux',
+        // },
+        // {
+        //   skillName: 'NPM',
+        //   iconifyTag: 'logos:npm-icon',
+        // },
+        // {
+        //   skillName: 'Yarn',
+        //   iconifyTag: 'logos:yarn',
+        // },
       ],
     },
     {
@@ -135,61 +135,61 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Github Actions',
           iconifyTag: 'logos:github-actions',
         },
-        {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          iconifyTag: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
-        },
+        // {
+        //   skillName: 'Cloudinary',
+        //   iconifyTag: 'logos:cloudinary',
+        // },
+        // {
+        //   skillName: 'Nginx',
+        //   iconifyTag: 'logos:nginx',
+        // },
+        // {
+        //   skillName: 'Sentry',
+        //   iconifyTag: 'logos:sentry-icon',
+        // },
       ],
     },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          iconifyTag: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          iconifyTag: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          iconifyTag: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          iconifyTag: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          iconifyTag: 'logos:ganache-icon',
-        },
-      ],
-    },
+    // {
+    //   title: 'Blockchain',
+    //   lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji(
+    //       '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+    //     ),
+    //     emoji(
+    //       '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+    //     ),
+    //     emoji(
+    //       '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
+    //     ),
+    //     emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
+    //     emoji(
+    //       '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: 'Ethereum',
+    //       iconifyTag: 'logos:ethereum',
+    //     },
+    //     {
+    //       skillName: 'Solidity',
+    //       iconifyTag: 'logos:solidity',
+    //     },
+    //     {
+    //       skillName: 'Web3js',
+    //       iconifyTag: 'logos:web3js',
+    //     },
+    //     {
+    //       skillName: 'Metamask',
+    //       iconifyTag: 'logos:metamask-icon',
+    //     },
+    //     {
+    //       skillName: 'Ganache',
+    //       iconifyTag: 'logos:ganache-icon',
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -264,7 +264,8 @@ export const projects: ProjectType[] = [
     stack: 'Techstack: Django, React , HTML, Bootstrap, CSS, PostgreSQL, REST, Azure, Docker',
     desc: '● Crafted personalized workout and diet plans for a large user base on HealthTrack365 using machine learning algorithms that helped them achieve their fitness goals with a success rate of over 70%.',
     github: 'https://github.com/dharmikbhanushali/WellnessTrackingSystem',
-    link: 'https://youtu.be/uzk2DVjTbok',
+    // link: 'https://youtu.be/uzk2DVjTbok',
+    link:'https://floating-plains-16047.herokuapp.com'
   },
   {
     name: 'Implementation of Virtual Assistant with Sign Language using Deep Learning and Tensorflow',
@@ -278,13 +279,13 @@ export const projects: ProjectType[] = [
     name: 'Fitness Application',
     stack: 'Techstack: Java, XML, Firebase, SQL',
     desc: '● Optimized application performance by integrating real-time data tracking features, including GPS location, step count, and calorie tracker, with an accuracy rate of over 90%.\n● Enhanced user experience with precise BMI calculator and personalized health insights from real-time data.',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    github: 'https://github.com/dharmikbhanushali/fitness-application',
   },
   {
     name: 'Visualizing the Vascular System of the Human Body',
     stack:'Techstack: Python, Tableau, PowerBI',
     desc: 'Collaborated with a Harvard University professor and a multidisciplinary team to visualize the complex vascular system of the human body for the HuBMAP initiative. Processed and cleaned millions of rows of data, ensuring a 97% improvement in data quality for the analysis of nearly 1000 blood vessels.',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    github: '',
   },
 ];
 
