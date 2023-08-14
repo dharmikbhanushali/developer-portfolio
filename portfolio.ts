@@ -289,7 +289,7 @@ export const projects: ProjectType[] = [
   },
 ];
 
-// export const feedbacks: FeedbackType[] = [
+export const feedbacks: FeedbackType[] = [
 //   {
 //     name: 'John Smith',
 //     feedback:
@@ -300,10 +300,10 @@ export const projects: ProjectType[] = [
 //     feedback:
 //       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
 //   },
-// ];
+];
 
 // option to hide or show the ContactUs component
-// export const showContactUs: boolean = true;
+export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
