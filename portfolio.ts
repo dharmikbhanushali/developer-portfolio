@@ -227,14 +227,14 @@ export const experience: ExperienceType[] = [
   {
     role: 'Systems Engineer',
     company: 'Tata Consultancy Services',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/tcs.jpg',
     date: 'Nov 2020 – Jun 2022',
     desc: '● Collaborated with cross-functional teams to develop REST API services with a focus on scalability, led to a remarkable 50% reduction in response time for high volume requests with continuous integration and deployment. ● Engineered and integrated high-performing Native SQL stored procedures to optimize Application Interfaces, resulting in a significant 25% boost in indexing speed. ● Designed efficient databases with optimized indexing, resulting in a 15% decrease in response time using MySQL.',
   },
   {
     role: 'Software Development Intern',
     company: 'The Sparks Foundation',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/tsf.jpg',
     date: 'Dec 2018 – Feb 2019',
     desc: '● Seamlessly integrated payment gateway into donation website with Python, JSON, and Payflow SDK, resulting in a 50% increase in transactions. ● Successfully developed user actionable insights & metrics to make informed credit decisions with an automated alert system with 75% accuracy PHP, HTML, CSS and PostgreSQL.',
     // descBullets: [
